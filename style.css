@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#controls {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#verseList {
+    list-style-type: none;
+    padding: 0;
+}
+
+.verse {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.verse-number {
+    background-color: #008CBA;
+    color: white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.verse-text {
+    flex-grow: 1;
+}
+
+.playing {
+    background-color: #4CAF50;
+}
